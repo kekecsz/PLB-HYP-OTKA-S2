@@ -35,8 +35,9 @@ FPQ_recoder <- function(varname){
 #######################################
 
 # code that loads and cleans data will be added here
-# in this code we use a dataset from test sessions of the study
-# which is already cleaned
+# in this preregistered code we use a dataset from the 8 test sessions run before 
+# the live study, so that the code can be tested, but this will be replaced by
+# the actual data from the live sessions once the study is finished
 
 data_pre = read.csv("https://raw.githubusercontent.com/kekecsz/PLB-HYP-OTKA-S2/main/preregistration/OTKA%20-%20Study2_clean_test_data_for_script_testing.csv")
 
