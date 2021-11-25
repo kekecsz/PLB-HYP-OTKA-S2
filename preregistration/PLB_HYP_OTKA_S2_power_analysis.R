@@ -242,7 +242,14 @@ simul = function(
 
 # set number of simulated samples (iterations) here
 
-iter=1000
+# Important: This analysis runs for a long time due to
+# the mixed models' processing power needs. On an Intel i7 processor
+# 10000 iterations run for about 16 hours.
+# to decrease run time you can decrease the number of iterations,
+# 1000 iterations will provide a decent estimate and it runs for only
+# 1.5 hours.
+
+iter=10000
 
 
 # in the simul() function we set the appropriate parameters to either simulate the alternative hypothesis being true
